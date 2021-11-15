@@ -1,0 +1,36 @@
+.form {
+	box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+	border-radius: 29px;
+	
+	.form__label {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-left: 72px;
+		min-height: 58px;
+		position: relative;
+
+		&::before {
+			position: absolute;
+			top: 20px;
+			left: 28px;
+			content: "";
+			display: block;
+			width: 24px;
+			height: 19px;
+			background-image: url("./../images/icons/message.svg");
+			background-repeat: no-repeat;
+		}
+	}
+}
+
+.form__input {
+	flex-grow: 1;
+	margin-right: 10px;
+
+	&::placeholder {
+		color: #BBBBBB;
+	}
+}
+.form__button {
+}

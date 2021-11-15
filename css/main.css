@@ -1,0 +1,145 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit; }
+
+button {
+  cursor: pointer;
+  background: 0; }
+
+input,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  border: 0;
+  outline: none; }
+
+input:focus,
+button:focus {
+  outline: none; }
+
+ol,
+ul,
+li {
+  list-style: none; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none;
+  display: inline-block; }
+
+textarea {
+  white-space: revert; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #323232; }
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box; }
+
+.nav {
+  padding-top: 35px;
+  padding-bottom: 33px; }
+
+.nav__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: inherit;
+  line-height: calc(36 / 24 * 100%); }
+  .logo img {
+    margin-right: 3.79px; }
+
+.navigation-list ul {
+  display: flex; }
+.navigation-list li:not(:last-child) {
+  margin-right: 42px; }
+.navigation-list a.active {
+  color: #F78434;
+  font-weight: 700; }
+.navigation-list a {
+  color: inherit;
+  line-height: calc(24 / 16 * 100%);
+  transition: .3s ease; }
+  .navigation-list a:hover {
+    color: #F78434; }
+
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.header__text {
+  width: 541px; }
+
+.header__title {
+  position: relative;
+  z-index: 9;
+  margin-right: -150px;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: calc(79 / 54 * 100%);
+  letter-spacing: 0.8px;
+  margin-bottom: 25px; }
+
+.header__text p {
+  line-height: 27px;
+  letter-spacing: calc(1.15 / 27 * 100%);
+  margin-bottom: 42px; }
+
+.form {
+  box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+  border-radius: 29px; }
+  .form .form__label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 72px;
+    min-height: 58px;
+    position: relative; }
+    .form .form__label::before {
+      position: absolute;
+      top: 20px;
+      left: 28px;
+      content: "";
+      display: block;
+      width: 24px;
+      height: 19px;
+      background-image: url("./../images/icons/message.svg");
+      background-repeat: no-repeat; }
+
+.form__input {
+  flex-grow: 1;
+  margin-right: 10px; }
+  .form__input::placeholder {
+    color: #BBBBBB; }
+
+.button {
+  display: inline-block;
+  min-height: 58px;
+  padding-left: 37px;
+  padding-right: 37px; }
