@@ -1,2 +1,8 @@
-$accent: #F78434;
+
+$hue-25: 25;
+$hue-15: 15;
+$hsl: hsl($hue-25, 92%, 59%);
+$accent: $hsl;
 $text: #323232;
+$white: #fff;
+$button-hover: hsl($hue-15, 92%, 59%);

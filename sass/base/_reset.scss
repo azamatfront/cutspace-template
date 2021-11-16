@@ -22,7 +22,8 @@ p {
   font-size: inherit;
 }
 
-button {
+button, 
+input[type="submit"] {
 	cursor: pointer;
 	background: 0;
 }

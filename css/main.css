@@ -14,7 +14,8 @@ h6,
 p {
   font-size: inherit; }
 
-button {
+button,
+input[type="submit"] {
   cursor: pointer;
   background: 0; }
 
@@ -79,14 +80,14 @@ body {
 .navigation-list li:not(:last-child) {
   margin-right: 42px; }
 .navigation-list a.active {
-  color: #F78434;
+  color: #f78636;
   font-weight: 700; }
 .navigation-list a {
   color: inherit;
   line-height: calc(24 / 16 * 100%);
   transition: .3s ease; }
   .navigation-list a:hover {
-    color: #F78434; }
+    color: #f78636; }
 
 .header__row {
   display: flex;
@@ -114,6 +115,8 @@ body {
 .form {
   box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
   border-radius: 29px; }
+  .form--active {
+    box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12); }
   .form .form__label {
     display: flex;
     align-items: center;
@@ -139,7 +142,15 @@ body {
     color: #BBBBBB; }
 
 .button {
+  font-weight: 700;
   display: inline-block;
   min-height: 58px;
   padding-left: 37px;
-  padding-right: 37px; }
+  padding-right: 37px;
+  border-radius: 29px;
+  background-color: #f78636;
+  color: #fff;
+  line-height: calc(24 / 16 * 100%);
+  transition: background-color .3s ease; }
+  .button:hover {
+    background-color: #f76636; }
