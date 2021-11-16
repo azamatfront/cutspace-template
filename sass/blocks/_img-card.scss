@@ -1,0 +1,12 @@
+.img-card {
+	& + & {
+		margin-left: 32px;
+	}
+}
+
+.img-card__img {
+	border-radius: 20px 20px 0 20px;
+	.img-card--rounded & {
+		border-radius: 0 20px 20px 0;
+	}
+}

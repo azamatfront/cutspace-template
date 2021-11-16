@@ -1,0 +1,38 @@
+.objects {
+	padding-top: 45px;
+	padding-bottom: 77px;
+}
+
+.objects__row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.objects__img {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.objects__text {
+	max-width: 543px;
+	padding-left: 181px;
+
+	h2 {
+		margin-bottom: 20px;
+	}
+
+	p + p {
+		margin-top: 20px;
+	}
+
+	p {
+		line-height: calc(27 / 16 * 100%);
+		letter-spacing: 1.15px;
+	}
+}
+
+.objects__button {
+	margin-top: 40px;
+}
